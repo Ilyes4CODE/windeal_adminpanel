@@ -1,6 +1,6 @@
 // js/config/app.config.js
 const AppConfig = {
-  BASE_URL: "https://windeal.onrender.com",
+  BASE_URL: "http://127.0.0.1:8000",
   API: {
     AUTH:    "/api/auth",
     ADMIN:   "/api/admin",

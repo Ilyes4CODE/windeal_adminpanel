@@ -67,7 +67,7 @@ const LoginPage = {
       const identifier = document.getElementById("login-identifier").value.trim();
       const password   = document.getElementById("login-password").value;
 
-      const res = await Http.post(`${AppConfig.API.AUTH}/login/`, { identifier, password });
+      const res = await Http.post(`${AppConfig.API.AUTH}/login/admin/`, { identifier, password });
 
       btn.disabled = false;
       btn.innerHTML = `<span data-i18n="sign_in">${I18n.t("sign_in")}</span>`;
