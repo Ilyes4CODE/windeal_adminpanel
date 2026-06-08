@@ -30,6 +30,12 @@ const API = {
     review:  (id, body)   => Http.post(`${AppConfig.API.ADMIN}/payments/${id}/review/`, body),
   },
 
+  // Deals (featuring control)
+  deals: {
+    list:    (params = "") => Http.get(`${AppConfig.API.ADMIN}/deals/${params}`),
+    feature: (id, body)    => Http.patch(`${AppConfig.API.ADMIN}/deals/${id}/feature/`, body),
+  },
+
   // Users
   users: {
     list:    (role)       => Http.get(`${AppConfig.API.ADMIN}/users/${role ? `?role=${role}` : ""}`),

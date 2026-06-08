@@ -3,6 +3,7 @@ const App = {
   _pages: {
     dashboard: DashboardPage,
     categories: CategoriesPage,
+    deals: DealsPage,
     plans: PlansPage,
     payments: PaymentsPage,
     users: UsersPage,
@@ -42,6 +43,7 @@ const App = {
           ${[
             { page:"dashboard",  icon:"fa-chart-line",    key:"dashboard"  },
             { page:"categories", icon:"fa-tags",          key:"categories" },
+            { page:"deals",      icon:"fa-fire",          key:"deals"      },
             { page:"plans",      icon:"fa-gem",           key:"plans"      },
             { page:"payments",   icon:"fa-receipt",       key:"payments"   },
             { page:"users",      icon:"fa-users",         key:"users"      },

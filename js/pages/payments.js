@@ -60,6 +60,8 @@ const PaymentsPage = {
         <th>${I18n.t("role")}</th>
         <th>${I18n.t("plan")}</th>
         <th>${I18n.t("amount")}</th>
+        <th>${I18n.t("payment_method")}</th>
+        <th>${I18n.t("reference_number")}</th>
         <th>${I18n.t("status")}</th>
         <th>${I18n.t("receipt")}</th>
         <th>${I18n.t("created_at")}</th>
@@ -71,6 +73,8 @@ const PaymentsPage = {
           <td><span class="role-tag role-${p.user?.role}">${I18n.t(p.user?.role || "")}</span></td>
           <td>${p.plan?.name || "—"}</td>
           <td><strong>${p.amount} DZD</strong></td>
+          <td>${Helpers.escapeHtml(p.payment_method) || "—"}</td>
+          <td>${Helpers.escapeHtml(p.reference_number) || "—"}</td>
           <td>${Helpers.statusBadge(p.status)}</td>
           <td>
             ${p.receipt_url
