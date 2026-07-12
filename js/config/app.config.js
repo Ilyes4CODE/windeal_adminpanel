@@ -1,6 +1,8 @@
 // js/config/app.config.js
 const AppConfig = {
-  BASE_URL: "http://127.0.0.1:8000",
+  // Production API. For local development against a local backend,
+  // change this to "http://127.0.0.1:8000".
+  BASE_URL: "https://api.windeal.company",
   API: {
     AUTH:    "/api/auth",
     ADMIN:   "/api/admin",
