@@ -9,6 +9,14 @@ const Translations = {
     payments: "Payments",
     users: "Users",
     admins: "Admins",
+    settings: "Settings",
+    access_mode: "App Access Mode",
+    access_mode_hint: "Choose whether the app is free for everyone or requires a paid subscription to redeem deals.",
+    mode_free: "Free",
+    mode_free_desc: "Everyone can redeem deals. No subscription required.",
+    mode_plans: "Paid Plans",
+    mode_plans_desc: "Redeeming a deal requires an active WINDEAL+ subscription.",
+    current_mode: "Current mode",
     logout: "Logout",
 
     // Deals
@@ -139,6 +147,14 @@ const Translations = {
     payments: "المدفوعات",
     users: "المستخدمون",
     admins: "المشرفون",
+    settings: "الإعدادات",
+    access_mode: "وضع الوصول للتطبيق",
+    access_mode_hint: "اختر ما إذا كان التطبيق مجانياً للجميع أو يتطلب اشتراكاً مدفوعاً لاستبدال العروض.",
+    mode_free: "مجاني",
+    mode_free_desc: "يمكن للجميع استبدال العروض. لا حاجة لاشتراك.",
+    mode_plans: "خطط مدفوعة",
+    mode_plans_desc: "يتطلب استبدال العرض اشتراكاً نشطاً في WINDEAL+.",
+    current_mode: "الوضع الحالي",
     logout: "تسجيل الخروج",
 
     // Deals
@@ -253,6 +269,14 @@ const Translations = {
     payments: "Paiements",
     users: "Utilisateurs",
     admins: "Administrateurs",
+    settings: "Paramètres",
+    access_mode: "Mode d'accès de l'application",
+    access_mode_hint: "Choisissez si l'application est gratuite pour tous ou nécessite un abonnement payant pour utiliser les offres.",
+    mode_free: "Gratuit",
+    mode_free_desc: "Tout le monde peut utiliser les offres. Aucun abonnement requis.",
+    mode_plans: "Plans payants",
+    mode_plans_desc: "L'utilisation d'une offre nécessite un abonnement WINDEAL+ actif.",
+    current_mode: "Mode actuel",
     logout: "Déconnexion",
 
     // Deals

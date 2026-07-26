@@ -47,4 +47,10 @@ const API = {
   admins: {
     create: (body) => Http.post(`${AppConfig.API.AUTH}/register/client/`, body),
   },
+
+  // Global app settings (free vs plans mode)
+  settings: {
+    get:    ()      => Http.get(`${AppConfig.API.ADMIN}/settings/`),
+    update: (body)  => Http.patch(`${AppConfig.API.ADMIN}/settings/`, body),
+  },
 };

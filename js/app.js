@@ -8,6 +8,7 @@ const App = {
     payments: PaymentsPage,
     users: UsersPage,
     admins: AdminsPage,
+    settings: SettingsPage,
   },
 
   init() {
@@ -48,6 +49,7 @@ const App = {
             { page:"payments",   icon:"fa-receipt",       key:"payments"   },
             { page:"users",      icon:"fa-users",         key:"users"      },
             { page:"admins",     icon:"fa-user-shield",   key:"admins"     },
+            { page:"settings",   icon:"fa-sliders-h",     key:"settings"   },
           ].map(item => `
             <a class="nav-item" data-page="${item.page}" onclick="App.navigate('${item.page}')">
               <i class="fas ${item.icon} nav-icon"></i>
